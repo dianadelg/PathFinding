@@ -175,7 +175,7 @@ System.out.println();
        seconds = (double) elapsedTime / 1000000000;
        System.out.println("Execution time: " + seconds + "s"); 
        System.out.println("Shortest path is: " + shortestPathAstar2);
-       System.out.println("Path taken by A* Manhattan");
+       System.out.println("Path taken by A* Euclidean");
        
        for(int i = 0; i < dim; i++){ //DFS new map
            
